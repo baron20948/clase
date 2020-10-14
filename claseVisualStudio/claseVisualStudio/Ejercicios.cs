@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace claseVisualStudio
@@ -54,6 +55,46 @@ namespace claseVisualStudio
             {
                 System.Console.WriteLine(i * 3 + 1);
                 i++;
+            }
+        }
+
+        public static void Ejercicio5()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine(i * i);
+                i++;
+            }
+        }
+
+        public static  void Ejercicio6()
+        {
+            int i = 0;
+            while (i <  100)
+ 
+            {
+                if (Utils.IsEven(i))
+                    System.console.writeline(i);
+                else
+                    System.console.writeline(-i);
+            
+              i ++;
+            }
+
+        }
+
+        Public static void Ejercicio7()
+
+        {
+            int a;
+            int aa;
+            aa = 0;
+            a = 0;
+            int i = 0;
+            while (i<100)
+            {
+                 System.consoloe.writeline(a + aa);
             }
         }
     }
