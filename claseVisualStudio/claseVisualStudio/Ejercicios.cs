@@ -11,12 +11,26 @@ namespace claseVisualStudio
 
         public static void Ejercicio1()
         {
-            contadr++
+            int contador = 0;
+            while (contador < 100)
+            {
+                contador++;
+            } 
         }
 
         // Primera prueba commit
         // Segundo prueba commit
         // Tercera prueba commit
         // Cuarta prueba commit
+
+        public static void Ejercicio2()
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine(i);
+                i++;
+            } 
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace claseVisualStudio
             sol3 = Utils.IsEven(9);
 
             Ejercicios.Ejercicio1();
+            Ejercicios.Ejercicio2();
 
         }
     }
