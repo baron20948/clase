@@ -32,5 +32,29 @@ namespace claseVisualStudio
                 i++;
             } 
         }
+
+        // Ejercicio igual que el anterior cambiando solo la linea de console
+        // para que en pantalla salgan numeros pares
+
+        public static void Ejercicio3()
+        {
+            int i = 0;
+            while (i<100)
+            {
+                System.Console.WriteLine(i * 2);
+                i++;
+            }
+
+        }
+
+        public static void  Ejercicio4()
+        {
+            int i = 0;
+            while (i<100)
+            {
+                System.Console.WriteLine(i * 3 + 1);
+                i++;
+            }
+        }
     }
 }
