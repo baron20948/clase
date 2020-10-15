@@ -75,26 +75,30 @@ namespace claseVisualStudio
  
             {
                 if (Utils.IsEven(i))
-                    System.console.writeline(i);
+                    System.Console.WriteLine(i);
                 else
-                    System.console.writeline(-i);
+                    System.Console.WriteLine(-i);
             
               i ++;
             }
 
         }
 
-        Public static void Ejercicio7()
+        public static void Ejercicio7()
 
         {
             int a;
             int aa;
             aa = 0;
-            a = 0;
+            a = 1;
             int i = 0;
             while (i<100)
             {
-                 System.consoloe.writeline(a + aa);
+                System.Console.WriteLine(a + aa);
+                int aux = aa;
+                aa = a;
+                a = aux + a;
+                i++;
             }
         }
     }
